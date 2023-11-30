@@ -2,7 +2,9 @@
     --small-text: 0.8rem;
     --larger-content: 70%;
     --smaller-content: 60%;
+    --base-spacing: 20px;
 }
+
 
 /* RESET */
 
@@ -11,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /* *GENERAL */
 
@@ -36,6 +39,7 @@ a {
     padding: 5px 10px;
     cursor: pointer;
 }
+
 
 /* *HEADER */
 
@@ -72,6 +76,7 @@ nav li {
     display: flex;
     justify-content: flex-end;
 }
+
 
 /* *JUMBO */
 
@@ -116,5 +121,109 @@ nav li {
     bottom: 30px;
 }
 
+
 /* *MAIN */
 
+.main__section {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.main__container {
+    width: var(--smaller-content);
+    margin: 0 auto;
+}
+
+.main__container h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.main__container label {
+    margin-right: 50px;
+}
+
+.main__container input {
+    margin-bottom: 40px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    border: 1px solid black;
+    width: calc(100% / 3);
+    min-height: 700px;
+    font-size: var(--small-text);
+}
+
+.card__title {
+    height: 30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__title i {
+    padding-right: 5px;
+}
+
+.card__content {
+    padding: 30px 20px;
+}
+
+.card__content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.card__content .price {
+    font-size: var(--small-text);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card__content .month {
+    color: rgb(98, 98, 98);
+    margin-bottom: 40px;
+}
+
+.card__content .users  {
+    margin-bottom: var(--base-spacing);
+    display: flex;
+}
+
+.card__content .folder  {
+    margin-bottom: var(--base-spacing);
+    display: flex;
+}
+
+.card__content i {
+    padding-right: 5px;
+}
+
+.card__content .functions {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card__content .blue__button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.buynow a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.buynow span {
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
