@@ -1,5 +1,7 @@
 :root {
     --small-text: 0.8rem;
+    --larger-content: 70%;
+    --smaller-content: 60%;
 }
 
 /* RESET */
@@ -40,9 +42,11 @@ a {
 #header {
     position: sticky;
     top: 0;
+    z-index: 1;
     height: 70px;
     padding: 10px;
     font-size: var(--small-text);
+    background-color: white;
 }
 
 .container__nav {
@@ -53,6 +57,7 @@ a {
 
 .container__nav img {
     margin-right: 15px;
+    height: 20px;
 }
 
 .container__nav nav {
@@ -67,3 +72,49 @@ nav li {
     display: flex;
     justify-content: flex-end;
 }
+
+/* *JUMBO */
+
+.container__jumbo {
+    background-color: #B4D0E7;
+    height: 600px;
+    position: relative;
+}
+
+.jumbo {
+    width: var(--larger-content);
+    margin: 0 auto;
+}
+
+.jumbo h1 {
+    font-size: 3.7rem;
+    font-weight: 900;
+    padding: 60px 0
+}
+
+.jumbo__content {
+    height: 50%;
+    display: flex;
+}
+
+.jumbo__content p {
+    line-height: 20px;
+    font-size: var(--small-text);
+}
+
+.jumbo__content .blue__button {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.jumbo__content img{
+    width: 70%;
+}
+
+.jumbo__text i {
+    position: absolute;
+    bottom: 30px;
+}
+
+/* *MAIN */
+
