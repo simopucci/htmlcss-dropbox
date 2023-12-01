@@ -21,12 +21,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    align-content: center;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -38,6 +32,11 @@ a {
     color: rgb(237, 237, 237);
     padding: 5px 10px;
     cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: opacity(0.7);
 }
 
 
@@ -57,6 +56,12 @@ a {
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+.container__nav nav ul {
+    list-style: none;
+    display: flex;
+    align-content: center;
 }
 
 .container__nav img {
@@ -524,4 +529,64 @@ nav li {
     padding: 30px 0;
     padding-right: 30px;
     border-bottom: 1px solid grey;
+}
+
+.faq__box:hover {
+    cursor: pointer;
+} 
+
+/* *FOOTER */
+
+#footer {
+    background-color: black;
+    height: 60vh;
+}
+
+.footer__container {
+    width: var(--larger-content);
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__box {
+    color: white;
+    width: calc(100% / 5);
+    line-height: 30px;
+}
+
+.footer__box h3 {
+    padding: 20px 0;
+}
+
+.footer__box ul {
+    list-style: none;
+    font-size: var(--small-text);
+}
+
+#languages {
+    color: rgb(146, 146, 146);
+    width: var(--larger-content);
+    margin: 0 auto;
+    height: 20%;
+}
+
+.language__box {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+#languages select {
+    border: none;
+    background-color: black;
+    color: rgb(146, 146, 146);
+}
+
+#languages select:hover {
+    cursor: pointer;
 }
