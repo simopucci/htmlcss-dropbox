@@ -353,11 +353,146 @@ nav li {
 .clients {
     width: 60%;
     margin-top: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .clients a {
     text-decoration: underline;
     color: blue;
     font-size: var(--small-text);
+}
+
+.logos {
+    display: flex;
+}
+
+.logo__container {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.container__aside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo__box {
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+}
+
+.logo__box img {
+    filter: invert(1);
+    width: 100%;
+    height: 100%;
+}
+
+.lightgreen {
+    padding: 10px;
+    background-color: #D1E9CD;
+}
+
+.inside__box {
+    width: 100%;
+    height: 100%;
+    background-color: #A2D39B;
+    padding: 40px;
+}
+
+.brown {
+    background-color: #61082B;
+}
+
+#florida {
+    width: 100%;
+    height: 30px;
+}
+
+.blue {
+    background-color: #0093CE;
+    display: flex;
+    align-items: center;
+}
+
+.red {
+    background-color: #FF1C1C;
+}
+
+.grey {
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+
+.dark__red {
+    background-color: #D5001F;
+}
+
+.lightblue {
+    background-color: #B4D0E7;
+}
+
+.dark__blue {
+    background-color: #0D2481;
+}
+
+.yellow {
+    background-color: #FFD830;
+}
+
+.w-50__svg {
+    width: 50%;
+}
+
+.separator {
+    width: 60px;
+    height: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.grey p {
+    font-size: var(--small-text);
+}
+
+#cit {
+    margin-top: 30px;
+    font-size: var(--small-text);
+}
+
+.agency__business {
+    height: 200px;
+    background-color: #B4D0E7;
+}
+
+.agency__business__container {
+    height: 100%;
+    width: var(--smaller-content);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.box__title {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: #61082B;
+}
+
+.box__button {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white__button__trial {
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
 }
