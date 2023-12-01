@@ -87,7 +87,6 @@ nav li {
 
 .container__jumbo {
     background-color: #B4D0E7;
-    height: 600px;
     position: relative;
 }
 
@@ -99,8 +98,9 @@ nav li {
 .jumbo h1 {
     font-size: 3.7rem;
     font-weight: 900;
-    padding: 60px 0
+    padding-top: 60px;
 }
+
 
 .jumbo__content {
     height: 50%;
@@ -119,6 +119,11 @@ nav li {
 
 .jumbo__content img{
     width: 70%;
+    position: relative;
+    top: 65px;
+}
+.jumbo__text {
+    margin-top: 65px;
 }
 
 .jumbo__text i {
